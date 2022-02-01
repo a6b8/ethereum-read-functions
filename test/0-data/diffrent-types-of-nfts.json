@@ -1,0 +1,220 @@
+{
+    "onchain": [
+        {
+            "name": "Bored Ape Yacht Club",
+            "address": "0xBC4CA0EdA7647A8aB7C2061c2E118A18a936f13D"
+        },
+        {
+            "name": "Avastars Teleporter",
+            "address": "0xf3e778f839934fc819cfa1040aabacecba01e049",
+            "etherscan": "https://etherscan.io/address/0xf3e778f839934fc819cfa1040aabacecba01e049#readContract",
+            "opensea": "https://opensea.io/collection/avastar",
+            "url": "https://avastars.io",
+            "tests": [
+                {
+                    "description": "default",
+                    "cmd": 1,
+                    "opensea": "https://opensea.io/assets/0xf3e778f839934fc819cfa1040aabacecba01e049/1"
+                },
+                {
+                    "description": "get SVG",
+                    "cmd": "renderAvastar(1)",
+                    "opensea": "https://opensea.io/assets/0xf3e778f839934fc819cfa1040aabacecba01e049/1"
+                }
+            ]
+        },
+        {
+            "name": "Squiggly",
+            "address": "0x36f379400de6c6bcdf4408b282f8b685c56adc60",
+            "etherscan": "https://etherscan.io/address/0x36f379400de6c6bcdf4408b282f8b685c56adc60#readContract",
+            "opensea": "https://opensea.io/collection/squiggly",
+            "url": "https://www.squiggly.wtf",
+            "tests": [
+                {
+                    "description": "default",
+                    "cmd": 1,
+                    "opensea": "https://opensea.io/assets/0x36f379400de6c6bcdf4408b282f8b685c56adc60/1"
+                },
+                {
+                    "description": "get SVG",
+                    "cmd": "getIdToSVG(1)",
+                    "opensea": "https://opensea.io/assets/0x36f379400de6c6bcdf4408b282f8b685c56adc60/1"
+                }
+            ]
+        },
+        {
+            "name": "Neolastics",
+            "address": "0xb2d6fb1dc231f97f8cc89467b52f7c4f78484044",
+            "etherscan": "https://etherscan.io/address/0xb2d6fb1dc231f97f8cc89467b52f7c4f78484044#readContract",
+            "opensea": "https://opensea.io/collection/neolastics",
+            "url": "https://neolastics.com",
+            "tests": [
+                {
+                    "description": "default",
+                    "cmd": "tokenURI('102344955954424339674275516737744520794536697912671599259221576111996081268593')",
+                    "opensea": "https://opensea.io/assets/0xb2d6fb1dc231f97f8cc89467b52f7c4f78484044/102344955954424339674275516737744520794536697912671599259221576111996081268593"
+                },
+                {
+                    "description": "get SVG",
+                    "cmd": "generateSVGofTokenById('102344955954424339674275516737744520794536697912671599259221576111996081268593')",
+                    "opensea": "https://opensea.io/assets/0xb2d6fb1dc231f97f8cc89467b52f7c4f78484044/102344955954424339674275516737744520794536697912671599259221576111996081268593"
+                }
+            ]
+        },
+        {
+            "name": "TinyBoxes",
+            "address": "0x46f9a4522666d2476a5f5cd51ea3e0b5800e7f98",
+            "etherscan": "https://etherscan.io/address/0x46f9a4522666d2476a5f5cd51ea3e0b5800e7f98#readContract",
+            "opensea": "https://opensea.io/collection/tinyboxes",
+            "url": "https://tinybox.shop",
+            "tests": [
+                {
+                    "description": "default",
+                    "cmd": 1062,
+                    "opensea": "https://opensea.io/assets/0x46f9a4522666d2476a5f5cd51ea3e0b5800e7f98/1062"
+                },
+                {
+                    "description": "get SVG",
+                    "cmd": "tokenArt('1062')",
+                    "opensea": "https://opensea.io/assets/0x46f9a4522666d2476a5f5cd51ea3e0b5800e7f98/1062"
+                }
+            ]
+        },
+        {
+            "name": "Mandalas",
+            "address": "0xDaCa87395f3b1Bbc46F3FA187e996E03a5dCc985",
+            "etherscan": "https://etherscan.io/address/0xDaCa87395f3b1Bbc46F3FA187e996E03a5dCc985#readContract",
+            "opensea": "https://opensea.io/collection/mandala-tokens",
+            "url": "https://mandalas.eth.link",
+            "tests": [
+                {
+                    "description": "default - not existing.",
+                    "cmd": "tokenURI('1177770958333366144680845060252578914728750737227')",
+                    "opensea": "https://opensea.io/assets/0xDaCa87395f3b1Bbc46F3FA187e996E03a5dCc985/1177770958333366144680845060252578914728750737227"
+                }
+            ]
+        },
+        {
+            "name": "The Signature",
+            "address": "0xcd78b15a249edf0416F89e4BF131fe4416d94FF9",
+            "etherscan": "https://etherscan.io/address/0xcd78b15a249edf0416F89e4BF131fe4416d94FF9#readContract",
+            "opensea": "",
+            "url": "https://blog.simondlr.com/posts/the-signature-exploring-time-amp-provenance-in-nft-art",
+            "tests": [
+                {
+                    "description": "default",
+                    "cmd": "tokenURI('20061978632845675994059111098086455434703431965661954087139701317977926126926')",
+                    "opensea": ""
+                }
+            ]
+        },
+        {
+            "name": "Uniswap V3 Positions",
+            "address": "0xc36442b4a4522e871399cd717abdd847ab11fe88",
+            "etherscan": "https://etherscan.io/address/0xc36442b4a4522e871399cd717abdd847ab11fe88#readContract",
+            "opensea": "https://opensea.io/collection/uniswap-v3-positions",
+            "url": "https://uniswap.org",
+            "tests": [
+                {
+                    "description": "default",
+                    "cmd": 102626,
+                    "opensea": "https://opensea.io/assets/0xc36442b4a4522e871399cd717abdd847ab11fe88/102626"
+                }
+            ]
+        },
+        {
+            "name": "Anchor Certificate",
+            "address": "0x600a4446094C341693C415E6743567b9bfc8a4A8",
+            "etherscan": "https://etherscan.io/address/0x600a4446094C341693C415E6743567b9bfc8a4A8#readContract",
+            "opensea": "https://opensea.io/collection/anchor-certificates",
+            "url": "https://www.untitledfrontier.studio/blog/the-logged-universe-1-the-line-to-anchor-city",
+            "tests": [
+                {
+                    "description": "default",
+                    "cmd": "tokenURI('40304442284165873759735888198141729455299047240663990062446596565539534752893')",
+                    "opensea": "https://opensea.io/assets/0x600a4446094C341693C415E6743567b9bfc8a4A8/40304442284165873759735888198141729455299047240663990062446596565539534752893"
+                },
+                {
+                    "description": "get SVG",
+                    "cmd": "generateImage('40304442284165873759735888198141729455299047240663990062446596565539534752893')",
+                    "opensea": "https://opensea.io/assets/0x600a4446094C341693C415E6743567b9bfc8a4A8/40304442284165873759735888198141729455299047240663990062446596565539534752893"
+                }
+            ]
+        },
+        {
+            "name": "Blitmap",
+            "address": "0x8d04a8c79ceb0889bdd12acdf3fa9d207ed3ff63",
+            "etherscan": "https://etherscan.io/address/0x8d04a8c79ceb0889bdd12acdf3fa9d207ed3ff63#readContract",
+            "opensea": "https://opensea.io/collection/blitmap",
+            "url": "https://www.blitmap.com",
+            "tests": [
+                {
+                    "description": "default",
+                    "cmd": 484,
+                    "opensea": "https://opensea.io/assets/0x8d04a8c79ceb0889bdd12acdf3fa9d207ed3ff63/484"
+                },
+                {
+                    "description": "get SVG",
+                    "cmd": "tokenSvgDataOf(484)",
+                    "opensea": "https://opensea.io/assets/0x8d04a8c79ceb0889bdd12acdf3fa9d207ed3ff63/484"
+                }
+            ]
+        },
+        {
+            "name": "Nouns",
+            "address": "0x9c8ff314c9bc7f6e59a9d9225fb22946427edc03",
+            "etherscan": "https://etherscan.io/address/0x9c8ff314c9bc7f6e59a9d9225fb22946427edc03#readContract",
+            "opensea": "https://opensea.io/collection/nouns",
+            "url": "https://nouns.wtf",
+            "tests": [
+                {
+                    "name": "default",
+                    "cmd": 7,
+                    "opensea": "https://opensea.io/assets/0x9c8ff314c9bc7f6e59a9d9225fb22946427edc03/7"
+                }
+            ]
+        },
+        {
+            "name": "solSeedlings",
+            "address": "0x5d4683ba64ee6283bb7fdb8a91252f6aab32a110",
+            "etherscan": "https://etherscan.io/address/0x5d4683ba64ee6283bb7fdb8a91252f6aab32a110#readContract",
+            "opensea": "https://opensea.io/collection/genesis-sol-solseedlings",
+            "url": "https://solseedlings.art",
+            "tests": [
+                {
+                    "name": "default",
+                    "cmd": 339,
+                    "opensea": "https://opensea.io/assets/0x5d4683ba64ee6283bb7fdb8a91252f6aab32a110/339"
+                }
+            ]
+        },
+        {
+            "name": "Loot",
+            "address": "0xFF9C1b15B16263C61d017ee9F65C50e4AE0113D7",
+            "etherscann": "https://etherscan.io/address/0xff9c1b15b16263c61d017ee9f65c50e4ae0113d7#readContract",
+            "opensea": "https://opensea.io/collection/lootproject",
+            "url": "https://www.lootproject.com",
+            "tests": [
+                {
+                    "name": "default",
+                    "cmd": 253,
+                    "opensea": "https://opensea.io/assets/0xff9c1b15b16263c61d017ee9f65c50e4ae0113d7/253"
+                }
+            ]
+        },
+        {
+            "name": "Lootprints",
+            "address": "0x1e9385ee28c5c7d33f3472f732fb08ce3cebce1f",
+            "etherscan": "https://etherscan.io/address/0x1e9385ee28c5c7d33f3472f732fb08ce3cebce1f#readContract",
+            "opensea": "https://opensea.io/collection/lootprints",
+            "url": "https://mooncat.community/lootprints",
+            "tests": [
+                {
+                    "name": "default",
+                    "cmd": 19579,
+                    "opensea": "https://opensea.io/assets/0x1e9385ee28c5c7d33f3472f732fb08ce3cebce1f/19579"
+                }
+            ]
+        }
+    ]
+}

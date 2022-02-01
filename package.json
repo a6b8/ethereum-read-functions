@@ -1,0 +1,23 @@
+{
+  "name": "evm-call-functions",
+  "version": "0.0.4",
+  "description": "",
+  "main": "src/index.js",
+  "scripts": {},
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/a6b8/evm-call-functions-for-javascript.git"
+  },
+  "author": "",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/a6b8/evm-call-functions-for-javascript/issues"
+  },
+  "homepage": "https://github.com/a6b8/evm-call-functions-for-javascript#readme",
+  "dependencies": {
+    "ethers": "^5.5.2"
+  },
+  "devDependencies" : {
+    "dotenv": "^10.0.0"
+  }
+}
