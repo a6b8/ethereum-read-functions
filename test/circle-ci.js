@@ -1,5 +1,7 @@
 const fs = require( 'fs' )
 // require( 'dotenv' ).config( { path: './../../.env' } )
+var _ = require( 'underscore' )
+
 
 file = fs.readFileSync( 'test/0-data/diffrent-types-of-nfts.json' )
 datas = JSON.parse( file )
@@ -24,5 +26,23 @@ readFunctions( configs )
 .then( ( results ) => {
     let r = JSON.stringify( results, null, 4 )
     names = results['data'].map( rr => rr['name'] )
-    console.log( names )
+
+    let test = [
+        'BoredApeYachtClub',
+        'Avastar',
+        'Squiggly',
+        'Neolastics',
+        'TinyBoxes',
+        'Mandala Tokens',
+        'The Signature',
+        'Uniswap V3 Positions NFT-V1',
+        'Anchor Certificates',
+        'Blitmap',
+        'Nouns',
+        'Genesis.sol - [sol]Seedlings',
+        'Loot',
+        'MoonCatLootprint'
+    ]
+
+    _.isEqual( names ,  test ) ? process.exit( 0 ) : process.exit( 1 ); 
 } )
