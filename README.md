@@ -1,7 +1,3 @@
-GITHUB_REPO
-
-
-
 <a href="#table-of-contents">
 <img src="https://raw.githubusercontent.com/a6b8/a6b8/main/assets/headlines/custom/ethereum-read-functions-for-nodejs.svg" height="45px" alt="Ethereum Read Functions for Node.js" name="# Ethereum Read Functions for Node.js">
 </a>
