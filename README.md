@@ -133,7 +133,7 @@ npm i ethereum-read-functions
 <img src="https://raw.githubusercontent.com/a6b8/a6b8/main/assets/headlines/default/options.svg" height="45px" alt="Options" name="Options">
 </a>
 
-```json
+```nodejs
 {
     'cmds': null,
     'address': null,
