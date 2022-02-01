@@ -181,6 +181,7 @@ Bug reports and pull requests are welcome on GitHub at https://github.com/a6b8/e
 
 - Not tested for production
 - Works only with Infura and Etherscan.
+- Build for NFT request only.
 
 <br>
 
