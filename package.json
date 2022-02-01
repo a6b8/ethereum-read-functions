@@ -1,19 +1,19 @@
 {
-  "name": "evm-call-functions",
-  "version": "0.0.4",
-  "description": "",
+  "name": "ethereum-read-functions",
+  "version": "0.0.1",
+  "description": "Read smart contract functions from evm-blockchains.",
   "main": "src/index.js",
   "scripts": {},
   "repository": {
     "type": "git",
-    "url": "https://github.com/a6b8/evm-call-functions-for-javascript.git"
+    "url": "https://github.com/a6b8/ethereum-read-functions-for-nodejs.git"
   },
-  "author": "",
+  "author": "a6b8",
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/a6b8/evm-call-functions-for-javascript/issues"
+    "url": "https://github.com/a6b8/ethereum-read-functions-for-nodejs/issues"
   },
-  "homepage": "https://github.com/a6b8/evm-call-functions-for-javascript#readme",
+  "homepage": "https://github.com/a6b8/ethereum-read-functions-for-nodejs#readme",
   "dependencies": {
     "ethers": "^5.5.2"
   },
