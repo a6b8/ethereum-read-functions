@@ -1,5 +1,5 @@
 <a href="#table-of-contents">
-<img src="https://raw.githubusercontent.com/a6b8/a6b8/main/assets/headlines/custom/ethereum-read-functions-for-node.js" height="45px" alt="Ethereum Read Functions for Node.js" name="# Ethereum Read Functions for Node.js">
+<img src="https://raw.githubusercontent.com/a6b8/a6b8/main/assets/headlines/custom/ethereum-read-functions-for-node.js.svg" height="45px" alt="Ethereum Read Functions for Node.js" name="# Ethereum Read Functions for Node.js">
 </a>
 
 Read smart contract functions from the ethereum and every other evm blockchain.
