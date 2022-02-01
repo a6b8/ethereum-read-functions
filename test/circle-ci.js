@@ -18,7 +18,7 @@ const configs = datas['onchain'].map( ( nft ) => {
     return config
 } )
 
-//console.log( configs[ 0 ] )
+console.log( configs[ 0 ] )
 
 readFunctions( configs )
 .then( ( results ) => {
