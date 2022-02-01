@@ -368,7 +368,7 @@ const readFunction = async ( {
         item = {}
         item['address'] = config['address']
         return item
-    }
+    } 
 }
 
 
