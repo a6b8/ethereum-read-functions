@@ -31,6 +31,7 @@ const config = {
 
 readFunction( config )
 .then( ( result ) => console.log( result ) )
+.catch( ( e ) => console.log( e ) )
 
 ```
 
@@ -53,6 +54,7 @@ const config = {
 
 readFunction( config )
 .then( ( result ) => console.log( result ) )
+.catch( ( e ) => console.log( e ) )
 ```
 
 
@@ -73,6 +75,7 @@ const config = {
 
 readFunction( config )
 .then( ( result ) => console.log( result ) )
+.catch( ( e ) => console.log( e ) )
 ```
 
 <br>
@@ -110,6 +113,7 @@ readFunction( {
     'infura_project_secret': process.env.INFURA_PROJECT_SECRET,
 } )
 .then( ( result ) => console.log( result ) )
+.catch( ( e ) => console.log( e ) )
 ```
 
 
@@ -122,6 +126,42 @@ readFunction( {
 ```javascript
 npm i ethereum-read-functions
 ```
+
+<br>
+
+<a href="#table-of-contents">
+<img src="https://raw.githubusercontent.com/a6b8/a6b8/main/assets/headlines/default/options.svg" height="45px" alt="Options" name="Options">
+</a>
+
+```json
+{
+    'cmds': null,
+    'address': null,
+    'network': 'homestead',
+    'etherscan_api_key': process.env.ETHERSCAN_API_KEY,
+    'infura_project_id': process.env.INFURA_PROJECT_ID,
+    'infura_project_secret': process.env.INFURA_PROJECT_SECRET,
+    'silent': false,
+    'shrink': true,
+    'try_blind': true,
+    'try_all': true
+}
+```
+
+
+**Validation**
+| **Name** | **Type** | **Required** | **Default** | **Description** |
+|------:|:------|:------|:------|:------|
+| **cmds** | ```Array of numbers or strings``` | No | [] | Set here your function names. If you set ```1``` it will interpreted as ```tokenURI(1)```. Please cast long int to string. |
+| **address** | ```String``` | Yes | | Set smart contract address here |
+| **network** | ```String``` | Yes | `"Homestead"` | Choose network. `Homestead === Ethereum Mainnet`, visit etherjs documentation for more [Informations](https://docs.ethers.io/v5/api/providers/api-providers/) |
+| **etherscan_api_key** | ```String``` | Yes | `""` | Some request will work without api key. More Informations to Etherscan Api you can find [here](https://etherscan.io/apis) |
+| **infura_project_id** | ```String``` | Yes | `""` | More Informations to Infura´s Api you can find [here](https://etherscan.io/apis) |
+| **infura_secret_id** | ```String``` | Yes | `""` | More Informations to Infura´s Api you can find [here](https://etherscan.io/apis) |
+| **silent** | ```Boolean``` | no | `false` | By default console output will print helpful status messages. |
+| **shrink** | ```Boolean``` | no | `true` | Reduces to size of the result. |
+| **try_blind** | ```Boolean``` | no | `false` | Experimental! If no ABIs was found (means Etherscan source code is verified) the algorithm uses a default ABIs to guess the ABI and fetch ***only*** a tokenURI call. |
+| **try_all** | ```Boolean``` | no | `false` | Experimental! Search inside of ABIs for viewable function without parameters and fetch them all automatically. |
 
 <br>
 

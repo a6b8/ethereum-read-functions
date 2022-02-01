@@ -252,7 +252,7 @@ const try_blind_abi = () => {
 const readFunction = async ( { 
     cmds=[], 
     address=null, 
-    network=null,
+    network="homestead",
     etherscan_api_key=null,
     infura_project_id=null,
     infura_project_secret=null,
