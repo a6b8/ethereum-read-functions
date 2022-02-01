@@ -1,5 +1,5 @@
 const fs = require( 'fs' )
-require( 'dotenv' ).config( { path: './../../.env' } )
+// require( 'dotenv' ).config( { path: './../../.env' } )
 
 file = fs.readFileSync( 'test/0-data/diffrent-types-of-nfts.json' )
 datas = JSON.parse( file )
@@ -17,6 +17,8 @@ const configs = datas['onchain'].map( ( nft ) => {
     }
     return config
 } )
+
+//console.log( configs[ 0 ] )
 
 readFunctions( configs )
 .then( ( results ) => {
