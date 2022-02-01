@@ -20,7 +20,7 @@ Read smart contract functions from the ethereum and every other evm blockchain.
 require( 'dotenv' ).config( { path: '.env' } )
 const { readFunction } = require( 'ethereum-read-functions' )
 
-let config = {
+const config = {
     'cmds': [ 'tokenURI(1)', 'name()' ],
     'network': 'homestead',
     'address': '0xFF9C1b15B16263C61d017ee9F65C50e4AE0113D7',
@@ -41,7 +41,7 @@ Set ``try blind`` to `true`
 require( 'dotenv' ).config( { path: '.env' } )
 const { readFunction } = require( 'ethereum-read-functions' )
 
-let config = {
+const config = {
     'cmds': [ 'tokenURI(19)' ],
     'network': 'homestead',
     'address': '0x4ef107a154cb7580c686c239ed9f92597a42b961',
@@ -61,7 +61,7 @@ readFunction( config )
 require( 'dotenv' ).config( { path: '.env' } )
 const { readFunction } = require( 'ethereum-read-functions' )
 
-let config = {
+const config = {
     'cmds': [],
     'network': 'homestead',
     'address': '0x4ef107a154cb7580c686c239ed9f92597a42b961',
